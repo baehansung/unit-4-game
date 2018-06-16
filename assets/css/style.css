@@ -1,0 +1,65 @@
+body {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#title {
+    background-color: rgb(255, 102, 0); 
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#instructions {
+    background-color: rgb(255, 224, 204);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#count {
+    width: 400px;
+}
+
+#number {
+    background-color: green;
+    width: 250px;
+    height: 120px;
+    float: left;
+    font-size: 50px;
+}
+
+#winloss {
+    float: left;
+    margin-left: 20px;
+    background-color: rgb(26, 255, 255);
+    height: 120px;
+    width: 130px;
+    padding: 15px;
+}
+
+#buttons {
+    clear: left;
+}
+
+.btn {
+    height: 96px;
+    margin: 5px;
+}
+
+#scoreIs, #totalScore {
+    background-color: rgb(204, 51, 255);
+}
+
+#scoreIs {
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+#totalScore {
+    height: 100px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
