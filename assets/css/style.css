@@ -53,7 +53,7 @@ body {
 #scoreIs {
     height: 40px;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     padding: 5px;
     text-align: center;
 }
@@ -62,4 +62,14 @@ body {
     height: 100px;
     margin-bottom: 50px;
     font-size: 50px;
+}
+
+#popup{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    float: right;
+    position: absolute;
+    left: 445px;
+    top: 415px;
 }
