@@ -14,4 +14,14 @@ $(document).ready(function(){
 
     $("#win").text(wins);
     $("#loss").text(losses);
+
+    function reset() {
+        $("#number").text(randomNum);
+        $("win").text(sum);
+    };
+
+    function win(){
+        wins++
+        $("#number").text(wins);
+    }
 })
