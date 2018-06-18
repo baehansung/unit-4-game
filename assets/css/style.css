@@ -72,4 +72,21 @@ body {
     position: absolute;
     left: 445px;
     top: 415px;
+    font-size: 20px;
+    padding: 20px;
+    color: red;
+}
+
+#lossImg{
+    height: 255px;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+#winImg{
+    height: 280px;
+    width: 450px;
+    display: block;
+    margin: auto;
 }

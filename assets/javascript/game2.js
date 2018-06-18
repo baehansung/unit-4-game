@@ -23,15 +23,16 @@ $(document).ready(function(){
         wins++;
         $("#win").text(wins);
         reset();
-        $("#popup").fadeIn(1000);
-        $("#popup").text("You Sir/Ma'am are a Crystal Guru!!" + "<br>" + "The Crystal Village has heard of your legendary skills and are rushing down to make you their King/Queen!!")
+        $("#popup").fadeIn(1000).text("You Sir/Ma'am are a Crystal Guru!! The Crystal Village has heard of your legendary skills and are rushing down to make you their King/Queen!!");
+        $("#popup").fadeIn(1000).prepend('<img id="winImg" src="assets/images/BBking.jpg" />');
     };
 
     function loss(){
         losses++;
         $("#loss").text(losses);
         reset();
-        $("#popup").fadeIn(1000);
+        $("#popup").fadeIn(1000).text("RUN FOR YOUR LIFE! The Crystal Villlage associates you as a fraud!! You were supposed to be 'The Choosen One' but you have failed them and now they are coming after you with pitch-forks and knives...");
+        $("#popup").fadeIn(1000).prepend('<img id="lossImg" src="assets/images/mob.jpg" />');
     };
 
     var crystalValues = {};
@@ -57,13 +58,5 @@ $(document).ready(function(){
     $("#green").on("click", getCrystal(2));
     $("#red").on("click", getCrystal(3));
     $("#yellow").on("click", getCrystal(4));
-
-    // function winPopUp(){
-    //     $("#popup")
-    // }
-
-    // function losePopUp(){
-
-    // }
 
 })
