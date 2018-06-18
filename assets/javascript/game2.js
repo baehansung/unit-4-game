@@ -23,7 +23,7 @@ $(document).ready(function(){
         wins++;
         $("#win").text(wins);
         reset();
-        $("#popup").fadeIn(1000).text("You Sir/Ma'am are a Crystal Guru!! The Crystal Village has heard of your legendary skills and are rushing down to make you their King/Queen!!");
+        $("#popup").fadeIn(1000).text("You Sir/Ma'am are a Crystal Master");
         $("#popup").fadeIn(1000).prepend('<img id="winImg" src="assets/images/BBking.jpg" />');
     };
 
