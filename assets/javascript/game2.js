@@ -13,6 +13,7 @@ $(document).ready(function(){
     $("#popup").hide();
 
     function reset() {
+        randomNum = Math.floor(Math.random() * 101) + 19;
         $("#number").text(randomNum);
         $("win").text(sum);
         sum = 0;
